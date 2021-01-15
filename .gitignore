@@ -1,0 +1,11 @@
+.DS_Store
+
+node_modules/
+npm-debug.log
+
+/public
+
+# local "backed up files"
+*.bak.*
+*.bak
+_bak

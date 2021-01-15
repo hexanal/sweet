@@ -1,0 +1,19 @@
+{
+  "name": "sweet",
+  "version": "0.0.1",
+  "description": "a minimum amount of stuff to build",
+  "author": "Fred Mercy <hello@fredmercy.ca>",
+  "scripts": {
+    "build": "NODE_ENV=production node zorg/build.js",
+    "start": "NODE_ENV=development node zorg/watch.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "chokidar": "^3.4.3",
+    "esbuild": "^0.8.23",
+    "fs-extra": "^9.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "1.30.0"
+  }
+}

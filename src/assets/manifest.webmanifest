@@ -1,0 +1,13 @@
+{
+  "name": "App Name",
+  "short_name": "App",
+  "description": "Application Description",
+  "start_url": "../",
+  "display": "standalone",
+  "background_color": "#ffff00",
+  "icons": [{
+    "src": "./images/favicon-big.png",
+    "sizes": "180x180",
+    "type": "image/png"
+  }]
+}
